@@ -1,0 +1,17 @@
+1677662658518	geckodriver	INFO	Listening on 127.0.0.1:60487
+1677662658829	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "60488" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_f/shmw8lns66zcd9h75g5jlb9w0000gp/T/rust_mozprofilepATWtM"
+*** You are running in headless mode.
+1677662663258	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_f/shmw8lns66zcd9h75g5jlb9w0000gp/T/rust_mozprofilepATWtM/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:60488/devtools/browser/44cbd417-ccd1-4262-867f-05ac37f7a657
+1677662665776	Marionette	INFO	Listening on port 60502
+Read port: 60502
+1677662665857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-T5F4JFN line 3 > eval, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677662669691	Marionette	INFO	Stopped listening on port 60502
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
